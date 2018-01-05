@@ -1,0 +1,2 @@
+I have analyzed the House Expenditures report for the first quarter of 2017, filtering expenses paid to Fedex (the RECIP field starts with ‘FEDEX’) with amount over 100$.
+Using this filter I have found 18 such payments ranging between 101$ and 545$.

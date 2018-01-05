@@ -1,0 +1,107 @@
+  1. BIOGUIDE_ID
+	<class 'str'>
+	Nulls: True
+	Unique values: 15
+	5 most frequent values:
+		C000537:	2
+		E000291:	2
+		P000588:	1
+		D000598:	1
+		N000015:	1
+	Max length: 7
+  2. OFFICE
+	<class 'str'>
+	Nulls: False
+	Unique values: 16
+	5 most frequent values:
+		HON. JAMES E. CLYBURN:	2
+		HON. RENEE L. ELLMERS:	2
+		HON. SUSAN A. DAVIS:	1
+		HON. TERRI A. SEWELL:	1
+		HON. MARK TAKAI:	1
+	Max length: 23
+  3. QUARTER
+	<class 'str'>
+	Nulls: False
+	Values: 2017Q1
+  4. PROGRAM
+	<class 'str'>
+	Nulls: False
+	Values: OFFICIAL EXPENSES OF MEMBERS, GENERAL EXPENDITURES
+  5. CATEGORY
+	<class 'str'>
+	Nulls: False
+	Values: PRINTING AND REPRODUCTION, RENT  COMMUNICATION  UTILITIES
+  6. DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2017-01-03
+	Max: 2017-03-30
+	Unique values: 14
+	5 most frequent values:
+		2017-01-11:	2
+		2017-01-03:	2
+		2017-01-06:	2
+		2017-03-21:	2
+		2017-02-27:	1
+  7. TRANSCODE
+	<class 'str'>
+	Nulls: False
+	Values: AP
+  8. RECORDID
+	<class 'str'>
+	Nulls: False
+	Unique values: 18
+	Max length: 8
+  9. PAYEE
+	<class 'str'>
+	Nulls: False
+	Values: FEDEX CUSTOM CRITICAL INC, FEDEX, FEDEX OFFICE AND PRINT SERVICES INC
+ 10. START DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2016-10-27
+	Max: 2017-02-21
+	Unique values: 16
+	5 most frequent values:
+		2017-01-17:	2
+		2016-11-22:	2
+		2016-12-16:	1
+		2017-01-23:	1
+		2016-12-07:	1
+ 11. END DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2016-10-27
+	Max: 2017-02-22
+	Unique values: 15
+	5 most frequent values:
+		2016-11-23:	2
+		2016-11-18:	2
+		2017-01-18:	2
+		2016-12-16:	1
+		2016-12-01:	1
+ 12. PURPOSE
+	<class 'str'>
+	Nulls: False
+	Values: PRINTING & REPRODUCTION, POSTAGE / COURIER / BOX RENTAL
+ 13. AMOUNT
+	<class 'float'>
+	Nulls: False
+	Min: 101.23
+	Max: 544.93
+	Sum: 3428.5499999999997
+	Mean: 190.475
+	Median: 128.845
+	Standard Deviation: 135.72423742648178
+	Unique values: 18
+ 14. YEAR
+	<class 'int'>
+	Nulls: False
+	Values: 2016, 2017
+ 15. RECIP (orig.)
+	<class 'str'>
+	Nulls: False
+	Values: FEDEX CUSTOM CRITICAL INC, FEDEX, FEDEX OFFICE AND PRINT SERVICES INC
+
+Row count: 18
