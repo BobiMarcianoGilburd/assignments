@@ -51,7 +51,7 @@ def cube(a):
 	return square_n_times(a, 3)
 
 # The program will start running from here
-# Call the multiply function defined above
+# Call the multiply function defined above with sample numbers 5 and 6 and prints the result to standard output
 print "I'm going use the calculator functions to multiply 5 and 6"
 x = multiply(5,6)
 print x
