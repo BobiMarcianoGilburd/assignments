@@ -30,3 +30,9 @@ function subtract(a, b) {
 function divide(a, b) {
 	return a / b
 }
+
+// The program will start running from here
+// Call the multiply function defined above with the numbers 5 and 6 and return the results
+console.log("I'm going use the calculator functions to multiply 5 and 6")
+var x = multiply(5,6)
+console.log(x)
