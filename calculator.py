@@ -29,6 +29,27 @@ def subtract(a, b):
 def divide(a, b):
 	return a / b
 
+# square_n_times - this function multiplies a number by itself n times and returns the result.
+# Input  : a, n
+# Returns: a to the power of n (a ** n)
+def square_n_times(a, n):
+	result = 1
+	for i in range(n):
+		result = multiply(result, a)
+	return result
+
+# square - this function returns the square of a number
+# Input  : a
+# Returns: a * a
+def square(a):
+	return square_n_times(a, 2)
+
+# cube - this function returns the cube of a number
+# Input  : a
+# Returns: a * a * a
+def cube(a):
+	return square_n_times(a, 3)
+
 # The program will start running from here
 # Call the multiply function defined above
 print "I'm going use the calculator functions to multiply 5 and 6"
