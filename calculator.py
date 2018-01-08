@@ -28,3 +28,10 @@ def substract(a, b):
 # Returns: a / b
 def substract(a, b):
 	return a / b
+
+# The program will start running from here
+# Call the multiply function defined above
+print "I'm going use the calculator functions to multiply 5 and 6"
+x = multiply(5,6)
+print x
+
