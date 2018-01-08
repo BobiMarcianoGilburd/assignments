@@ -17,16 +17,16 @@ def multiply(a, b):
 def add(a, b):
 	return a + b
 
-# substract - this functions substracts two numbers and returns the result.
+# subtract - this functions substracts two numbers and returns the result.
 # Input  : a, b
 # Returns: a - b
-def substract(a, b):
+def subtract(a, b):
 	return a - b
 
 # divide - this functions divides two numbers and returns the result.
 # Input  : a, b
 # Returns: a / b
-def substract(a, b):
+def divide(a, b):
 	return a / b
 
 # The program will start running from here
